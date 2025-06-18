@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini E-commerce</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <h1>My Mini Shop🛒</h1>
+  </header>
+
+  <div id="categoryFilter" class="categories"></div>
+
+  <div id="searchContainer">
+    <input type="text" id="searchInput" placeholder="Search products..." />
+  </div>
+
+  <div id="myButtons">
+    <button id="viewLikedBtn" class="category-btn">❤️ View Liked Products</button>
+    <button id="backBtn" class="category-btn">🔙 Back to All</button>
+  </div>
+
+  <div id="productGrid" class="grid"></div>
+
+  <section id="comparisonContainer">
+    <h2>🔍 Product Comparison</h2>
+    <div id="comparisonGrid"></div>
+    <div id="clearCompareBtn">
+      <button id="clearCompareBtn" class="category-btn">❌ Clear Comparison</button>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
